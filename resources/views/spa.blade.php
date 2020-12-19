@@ -16,7 +16,7 @@
     <body>
     <div class="content" id="app">
 
-        <vue-app :products="{{ json_encode($products) }}"></vue-app>
+        <vue-app></vue-app>
 
         <script src="{{ asset("js/app.js") }}"></script>
     </div>
